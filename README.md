@@ -19,42 +19,45 @@ Currently transitioning from 11+ years in customer-facing roles (Amazon Prime Vi
 
 ### Featured Projects
 
+#### 🍳 [KitchenHelper-AI](https://kitchen.meluciolabs.de) - Live Demo
+AI-powered recipe generator with ingredient management
+- Ollama LLM integration for recipe generation
+- Multi-language support (DE/EN)
+- Dark/Light theme, responsive design
+- **Stack:** FastAPI, Docker, Cloudflare Tunnel
+
+#### 📚 [Lernkarten-API](https://karten.meluciolabs.de) - Live Demo
+Spaced repetition flashcard system with Leitner algorithm
+- JWT auth, user-specific progress tracking
+- Keyboard shortcuts, CSV import/export
+- AI-powered card extraction from PDF/TXT
+- **Stack:** FastAPI, SQLite, Resend Email
+
 #### 🎓 [linux-essentials-quiz](https://github.com/MCCMDave/linux-essentials-quiz)
 Interactive quiz system with 276 official Linux Essentials 010-160 exam questions
 - 3 quiz modes (Learning/Exam/Custom)
 - Realistic exam simulation with timer
-- Complete guide for creating custom question catalogs
 - **License:** Apache 2.0
 
-#### 🐍 [python-learning](https://github.com/MCCMDave/python-learning)
-Learning Python through practical automation and real-world projects
-- Complete learning roadmap (Phases 1-3)
-- Production-ready tools (Service Monitor, Quiz Engine)
-- From calculator basics to OOP and automation
+#### ☁️ [oci-instance-sniper](https://github.com/MCCMDave/oci-instance-sniper)
+Automated Oracle Cloud ARM instance creation with retry logic
+- Multi-region support, exponential backoff
+- Email notifications, SSH config generation
+
+#### 🔌 [ec2-connect](https://github.com/MCCMDave/ec2-connect)
+AWS EC2 SSH connection manager for Windows
+- Multi-instance support, interactive credentials
+- Bilingual menu (DE/EN)
 
 #### 🏠 [homelab-automation](https://github.com/MCCMDave/homelab-automation)
 Production monitoring & tracking tools for my homelab
 - Service uptime monitoring
 - Power consumption tracking with cost calculation
-- Real-time status dashboards
 
 #### 🪟 [windows-automation](https://github.com/MCCMDave/windows-automation)
 Universal Update Manager for Windows systems
 - Automated software updates (Chocolatey, winget, pip, npm)
-- System maintenance and cleanup
 - PowerShell-based automation
-
-#### 🔄 [project-sync-manager](https://github.com/MCCMDave/project-sync-manager)
-Intelligent project synchronization via Nextcloud
-- Bilingual interactive menu
-- Automatic dependency export/import
-- Cross-PC development workflow
-
-#### ☁️ [oci-instance-sniper](https://github.com/MCCMDave/oci-instance-sniper)
-Automated Oracle Cloud ARM instance creation with retry logic
-- Exponential backoff for capacity issues
-- Email notifications
-- SSH config generation
 
 ---
 
@@ -85,11 +88,11 @@ Automated Oracle Cloud ARM instance creation with retry logic
 
 ## 📊 Recent Highlights
 
+✅ **2 Live Web Apps** at [meluciolabs.de](https://meluciolabs.de)
 ✅ **Linux Essentials Certified** (85%+)
-✅ **6 Active Open Source Projects**
-✅ **276 Linux exam questions** contributed to community
+✅ **7+ Active Projects** (tools, APIs, automation)
 ✅ **Homelab uptime:** 99.8% over 6 months
-✅ **Automated workflows** across Windows and Linux
+✅ **Full-stack:** FastAPI + Docker + Cloudflare
 
 ---
 
