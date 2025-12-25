@@ -97,12 +97,4 @@ Produktions-Monitoring & Tracking-Tools für mein Homelab
 
 ---
 
-## 📊 GitHub-Aktivität
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MCCMDave&show_icons=true&theme=dark&count_private=true&hide=stars)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MCCMDave&layout=compact&theme=dark)
-
----
-
 *Zuverlässige Systeme bauen, Menschen zum Erfolg verhelfen* 🚀

@@ -104,12 +104,4 @@ Universal Update Manager for Windows systems
 
 ---
 
-## 📊 GitHub Activity
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MCCMDave&show_icons=true&theme=dark&count_private=true&hide=stars)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MCCMDave&layout=compact&theme=dark)
-
----
-
 *Building reliable systems, helping people succeed* 🚀
