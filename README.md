@@ -33,6 +33,13 @@ Spaced repetition flashcard system with Leitner algorithm
 - AI-powered card extraction from PDF/TXT
 - **Stack:** FastAPI, SQLite, Resend Email
 
+#### 🍓 [Pi-Stats](https://pi.meluciolabs.de) - Live Demo
+Real-time system monitoring dashboard for Raspberry Pi
+- CPU, RAM, Disk, Network statistics with visual indicators
+- Docker container status overview
+- Auto-refresh every 10 seconds
+- **Stack:** FastAPI, psutil, Docker SDK, Vanilla JS
+
 #### 🎓 [linux-essentials-quiz](https://github.com/MCCMDave/linux-essentials-quiz)
 Interactive quiz system with 276 official Linux Essentials 010-160 exam questions
 - 3 quiz modes (Learning/Exam/Custom)
@@ -88,7 +95,7 @@ Universal Update Manager for Windows systems
 
 ## 📊 Recent Highlights
 
-✅ **2 Live Web Apps** at [meluciolabs.de](https://meluciolabs.de)
+✅ **3 Live Web Apps** at [meluciolabs.de](https://meluciolabs.de)
 ✅ **Linux Essentials Certified** (85%+)
 ✅ **7+ Active Projects** (tools, APIs, automation)
 ✅ **Homelab uptime:** 99.8% over 6 months

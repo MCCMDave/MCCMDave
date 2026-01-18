@@ -32,6 +32,13 @@ Spaced Repetition Lernkartensystem mit Leitner-Algorithmus
 - KI-gestützte Kartenextraktion aus PDF/TXT
 - **Stack:** FastAPI, SQLite, Resend Email
 
+#### 🍓 [Pi-Stats](https://pi.meluciolabs.de) - Live Demo
+Echtzeit System-Monitoring Dashboard fuer Raspberry Pi
+- CPU, RAM, Disk, Netzwerk Statistiken mit visuellen Indikatoren
+- Docker Container Status Uebersicht
+- Auto-Refresh alle 10 Sekunden
+- **Stack:** FastAPI, psutil, Docker SDK, Vanilla JS
+
 #### 🎓 [linux-essentials-quiz](https://github.com/MCCMDave/linux-essentials-quiz)
 Interaktives Quiz-System mit 276 offiziellen Linux Essentials 010-160 Prüfungsfragen
 - 3 Quiz-Modi (Lernen/Prüfung/Custom)
@@ -81,7 +88,7 @@ Produktions-Monitoring & Tracking-Tools für mein Homelab
 
 ## 📊 Aktuelle Highlights
 
-✅ **2 Live Web Apps** unter [meluciolabs.de](https://meluciolabs.de)
+✅ **3 Live Web Apps** unter [meluciolabs.de](https://meluciolabs.de)
 ✅ **Linux Essentials Zertifiziert** (85%+)
 ✅ **7+ Aktive Projekte** (Tools, APIs, Automatisierung)
 ✅ **Homelab Uptime:** 99.8% über 6 Monate
