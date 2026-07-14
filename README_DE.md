@@ -1,107 +1,104 @@
-# Hi, ich bin David 👋
+# Hallo, ich bin David 👋
 
-🇩🇪 Deutsche Version | **[🇬🇧 English Version](README.md)**
-
----
-
-**Customer Success Engineer** | Verbindung von technischer Expertise mit Kundenexzellenz
-
-Aktuell im Übergang von 11+ Jahren in kundenorientierten Rollen (Amazon Prime Video, DKB Bank) zu Customer Success Engineering, kombiniere ich meine Leidenschaft für Menschen mit praktischen technischen Fähigkeiten.
+**[🇬🇧 English Version](README.md)** | **🇩🇪 Deutsche Version**
 
 ---
 
-## 🚀 Was ich baue
+**Customer Success Engineer** | Technische Tiefe trifft echten Kundenkontakt
 
-### Produktives Homelab (24/7 Uptime, 6+ Monate)
-**Tech:** Raspberry Pi 5, Docker, Nextcloud, Pi-hole, MariaDB
-**Umfang:** Verwaltung von 42.000+ Fotos, optimiert auf 57% schnellere Performance
-**Fokus:** Infrastruktur-Automatisierung, Monitoring und Zuverlässigkeit
+Über 12 Jahre in kundennahen technischen Rollen (Amazon Digital Services, DKB Bank), inzwischen zertifiziert in IT-Administration und Cloud-Infrastruktur. Ich verbinde praktische Infrastrukturerfahrung mit dem, worauf guter Support wirklich beruht: den Menschen auf der anderen Seite tatsächlich zu verstehen.
 
-### Aktive Projekte
+---
 
-#### 🍳 [KitchenHelper-AI](https://kitchen.meluciolabs.de) - Live Demo
-KI-gesteuerter Rezeptgenerator mit Zutatenverwaltung
-- Ollama LLM-Integration für Rezepterstellung
-- Mehrsprachig (DE/EN), Dark/Light Theme
-- **Stack:** FastAPI, Docker, Cloudflare Tunnel
+## 🎓 Zertifikate
 
-#### 📚 [Lernkarten-API](https://karten.meluciolabs.de) - Live Demo
-Spaced Repetition Lernkartensystem mit Leitner-Algorithmus
-- JWT Auth, benutzerspezifischer Fortschritt
-- Keyboard-Shortcuts, CSV Import/Export
+| Zertifikat | Abschluss |
+|---|---|
+| **IHK Cloud Business Expert** | Juni 2026 |
+| **IHK IT-Administrator** | April 2026 |
+| **IHK IT-Support-Specialist** | Februar 2026 |
+| **LPI Linux Essentials** (85%+) | November 2025 |
+
+---
+
+## 🚀 Woran ich arbeite
+
+### Produktive Infrastruktur (24/7, self-hosted)
+**Umfang:** 25+ Docker-Container auf einem Hetzner-Cloud-Server (Produktivsystem) und einem Raspberry Pi 5 (Hot-Standby & Entwicklung)
+**Stack:** Docker, Linux, Nextcloud, Pi-hole, MariaDB, PostgreSQL
+**Netzwerk:** Cloudflare Tunnel für alle öffentlichen Dienste, Tailscale VPN für Remote-Zugriff
+**Deployment:** CI/CD über GitHub Actions mit automatischem SSH-Deploy
+**Schwerpunkt:** Monitoring, Backups, Betriebsstabilität und Dokumentation
+
+### Ausgewählte Projekte
+
+#### 🎓 [linux-essentials-quiz](https://github.com/MCCMDave/linux-essentials-quiz)
+Interaktives Quizsystem mit 276 offiziellen Prüfungsfragen (Linux Essentials 010-160), entstanden bei der Vorbereitung auf die Prüfung, die ich mit 85%+ bestanden habe
+- 3 Modi (Lernen/Prüfung/Custom), realistische Prüfungssimulation mit Timer
+- **Lizenz:** Apache 2.0
+
+#### 🍳 [KitchenHelper-AI](https://kitchenhelper-ai.de) - Live
+KI-gestützter Rezeptgenerator mit Fokus auf diabetikerfreundliche Ernährung (BE-/KHE-Berechnung)
+- Google Gemini für die Rezeptgenerierung
+- Mehrsprachig (DE/EN)
+- **Stack:** React, FastAPI, Docker, Cloudflare Tunnel
+
+#### 📚 [Lernkarten-API](https://karten.meluciolabs.de) - Live
+Spaced-Repetition-Lernkartensystem nach dem Leitner-Algorithmus
+- JWT-Auth, nutzerspezifisches Fortschritts-Tracking
 - KI-gestützte Kartenextraktion aus PDF/TXT
 - **Stack:** FastAPI, SQLite, Resend Email
 
-#### 🍓 [Pi-Stats](https://pi.meluciolabs.de) - Live Demo
-Echtzeit System-Monitoring Dashboard fuer Raspberry Pi
-- CPU, RAM, Disk, Netzwerk Statistiken mit visuellen Indikatoren
-- Docker Container Status Uebersicht
-- Auto-Refresh alle 10 Sekunden
-- **Stack:** FastAPI, psutil, Docker SDK, Vanilla JS
-
-#### 🎓 [linux-essentials-quiz](https://github.com/MCCMDave/linux-essentials-quiz)
-Interaktives Quiz-System mit 276 offiziellen Linux Essentials 010-160 Prüfungsfragen
-- 3 Quiz-Modi (Lernen/Prüfung/Custom)
-- **Lizenz:** Apache 2.0
+#### 🏠 [homelab-automation](https://github.com/MCCMDave/homelab-automation)
+Monitoring- und Tracking-Tools für mein produktives Homelab
+- Uptime-Überwachung, Stromverbrauchs-Tracking mit Kostenrechnung
 
 #### ☁️ [oci-instance-sniper](https://github.com/MCCMDave/oci-instance-sniper)
-Automatisierte Oracle Cloud ARM-Instanzerstellung mit Retry-Logik
-- Multi-Region-Support, Exponential Backoff
-- Email-Benachrichtigungen, SSH-Config-Generierung
+Automatisiertes Provisioning von Oracle-Cloud-ARM-Instanzen mit Retry-Logik
+- Multi-Region, exponentielles Backoff, E-Mail-Benachrichtigungen
 
 #### 🔌 [ec2-connect](https://github.com/MCCMDave/ec2-connect)
-AWS EC2 SSH-Verbindungsmanager für Windows
-- Multi-Instanz-Support, interaktive Credentials
-- Zweisprachiges Menü (DE/EN)
+SSH-Verbindungsmanager für AWS EC2 unter Windows
+- Multi-Instance, interaktive Credentials, zweisprachiges Menü (DE/EN)
 
-#### 🏠 [homelab-automation](https://github.com/MCCMDave/homelab-automation)
-Produktions-Monitoring & Tracking-Tools für mein Homelab
-- Service-Uptime-Monitoring
-- Stromverbrauch-Tracking mit Kostenberechnung
+#### 🪟 [windows-automation](https://github.com/MCCMDave/windows-automation)
+Universal Update Manager für Windows-Systeme
+- Automatisierte Software-Updates (Chocolatey, winget, pip, npm), PowerShell-basiert
 
 ---
 
 ## 💻 Tech Stack
 
-**Sprachen:** Python, PowerShell, Bash
-**Infrastruktur:** Docker, Linux, Git, OCI
-**Tools:** Nextcloud, Pi-hole, MariaDB
-**Aktuell am Lernen:** AWS, Kubernetes, Advanced Python
-**Zertifizierungen:** Linux Essentials (85%+), IHK Cloud IT Administrator (Modul 2/4)
+**Sprachen:** Python, PowerShell, Bash, JavaScript
+**Infrastruktur:** Docker, Linux, Hetzner Cloud, Cloudflare, Tailscale, Git
+**Backend:** FastAPI, Node.js/Express, SQLite, PostgreSQL
+**Praxis:** CI/CD (GitHub Actions), Monitoring, Backup-Strategien, technische Dokumentation
+**Aktuell im Lernen:** Kubernetes, AWS vertiefend
 
 ---
 
 ## 🎯 Was ich mitbringe
 
-**Customer Success:**
-- 8+ Jahre Unterstützung von Kunden mit komplexen technischen Produkten
-- 99% Zufriedenheitsrate durchgängig gehalten
-- Erfahrung in der Übersetzung technischer Konzepte in klare Lösungen
+**Customer Success**
+- Über 12 Jahre Support für Kundinnen und Kunden bei komplexen technischen Produkten
+- Level-2-Eskalationsspezialist im regulierten Bankenumfeld (DKB), über 95% Lösungsquote beim Erstkontakt
+- 8+ Jahre Amazon Digital Services (Prime Video, Echo, Kindle, Fire), 99% Zufriedenheit
+- Wissensplattform aufgebaut, die während der Pandemie von 20+ Kolleginnen und Kollegen genutzt wurde
 
-**Technische Tiefe:**
-- Praktische Infrastruktur-Erfahrung (Docker, Linux, Automatisierung)
-- Produktivumgebung läuft 24/7
-- Starke Dokumentations- und Problemlösungsfähigkeiten
-- Apache 2.0 Beiträge zu Open Source
-
----
-
-## 📊 Aktuelle Highlights
-
-✅ **3 Live Web Apps** unter [meluciolabs.de](https://meluciolabs.de)
-✅ **Linux Essentials Zertifiziert** (85%+)
-✅ **7+ Aktive Projekte** (Tools, APIs, Automatisierung)
-✅ **Homelab Uptime:** 99.8% über 6 Monate
-✅ **Full-Stack:** FastAPI + Docker + Cloudflare
+**Technische Tiefe**
+- Produktive Infrastruktur im 24/7-Betrieb, eigenverantwortlich aufgebaut und betrieben
+- Self-Hosting aus der Praxis: Ich betreibe genau die Setups, die ich supporten würde
+- Ausgeprägte Dokumentationspraxis (Runbooks, Troubleshooting-Guides)
+- Open-Source-Beiträge unter Apache 2.0
 
 ---
 
 ## 📫 Kontakt
 
 💼 [LinkedIn](https://www.linkedin.com/in/david-vaupel)
-📧 221494616+MCCMDave@users.noreply.github.com
+📧 bewerbungen@meluciolabs.de
 📍 Brandenburg, Deutschland | 🌍 Offen für Remote
 
 ---
 
-*Zuverlässige Systeme bauen, Menschen zum Erfolg verhelfen* 🚀
+*Verlässliche Systeme bauen, Menschen weiterhelfen* 🚀
