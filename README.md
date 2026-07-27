@@ -24,7 +24,7 @@
 ## 🚀 What I'm Building
 
 ### Production Infrastructure (24/7, self-hosted)
-**Scale:** 25+ Docker containers across a Hetzner Cloud server (production) and a Raspberry Pi 5 (hot standby & dev)
+**Scale:** 30+ Docker containers across a Hetzner Cloud server (production) and a Raspberry Pi 5 (hot standby & dev)
 **Stack:** Docker, Linux, Nextcloud, Pi-hole, MariaDB, PostgreSQL
 **Networking:** Cloudflare Tunnel for all public services, Tailscale VPN for remote access
 **Delivery:** CI/CD via GitHub Actions with automated SSH deployment
