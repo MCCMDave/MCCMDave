@@ -24,7 +24,7 @@
 ## 🚀 Woran ich arbeite
 
 ### Produktive Infrastruktur (24/7, self-hosted)
-**Umfang:** 25+ Docker-Container auf einem Hetzner-Cloud-Server (Produktivsystem) und einem Raspberry Pi 5 (Hot-Standby & Entwicklung)
+**Umfang:** 30+ Docker-Container auf einem Hetzner-Cloud-Server (Produktivsystem) und einem Raspberry Pi 5 (Hot-Standby & Entwicklung)
 **Stack:** Docker, Linux, Nextcloud, Pi-hole, MariaDB, PostgreSQL
 **Netzwerk:** Cloudflare Tunnel für alle öffentlichen Dienste, Tailscale VPN für Remote-Zugriff
 **Deployment:** CI/CD über GitHub Actions mit automatischem SSH-Deploy
